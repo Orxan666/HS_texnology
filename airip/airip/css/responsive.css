@@ -1,0 +1,233 @@
+/* Large desktop :1920px. */
+@media (min-width: 1920px) {
+    .container{width: 1230px}
+    .banner-image-wrapper {width: 48%;}
+    .banner-text {width: 52%;}
+    .banner-image-cell {padding-right: 40px;}
+    .text-content-wrapper {padding-left: 10px;}
+    .text-content-wrapper {width: 75%;}
+    .slick-dots {right: -200px;}
+    .service-container {margin-right: -58px; padding-left: 100px;}
+    .newsletter-area::before, .newsletter-area::after {
+        left: -6%;
+        top: -88px;
+        transform: rotate(-6.5deg);
+        width: 46%;
+    }
+    .newsletter-area::after {
+        right: -4%;
+        top: -29px;
+        transform: rotate(10deg);
+        width: 65.7%;
+        left: auto
+    }
+    .mailchimp-alerts {margin-left: 42px; width: 100%;}
+    .newsletter-bg::after {transform: skewX(-99deg);}
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1169px) {
+    .container{width: 970px}
+    .newsletter-area::before, .newsletter-area::after {top: -77px; width: 42.8%;}
+    .newsletter-area::after {
+        left: auto;
+        top: -33px;
+        width: 69.1%;
+    } 
+    .make-call-registration .form-box > input, .make-call-registration .form-box > select {width: 211px;}
+    .faq-area .accordion {padding-right: 0;}
+    .faq-left-sec {padding-left: 30px;}
+    .faq-title-image {padding-top: 30px;}
+    .feature-image-content img {max-width: 100%;}
+    .feature-text-content {padding-left: 0;}
+    .slick-dots {right: -85px; top: 43%;}  
+    .service-right {padding-right: 0;}
+    .service-right > img {max-width: 100%;}
+    .service-business-area .feature-text {padding-right: 0;}
+    .c-content {width: 84px;}
+    .footer-widget-area .col-md-3:nth-child(2) .single-footer-widget, .footer-widget-area .col-md-3:nth-child(3) .single-footer-widget, .footer-widget-area .col-md-3:nth-child(4) .single-footer-widget {
+        padding-left: 55px;
+    }
+}
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{width:750px} 
+    .mt-sm-30{
+        margin-top: 30px;
+    }
+    button.nav-btn i {display: none;}
+    button.nav-btn span {display: block;}
+    .header-area {padding: 20px 0;}
+    .mean-container .mean-bar {height: auto;}
+    .single-service-container {padding: 0;}
+    .service-icon::before {right: -57px; width: 50px;}
+    .newsletter-area::before {top: -72px; width: 43.3%;}
+    .newsletter-container {padding: 0;}
+    .newsletter-form input {width: 275px;}
+    .newsletter-info, .newsletter-form {width: 50%;}
+    .newsletter-info h3.text-light {font-size: 20px;}
+    .make-call-registration .form-box > input, .make-call-registration .form-box > select {
+        margin-right: 7px;
+        width: 170px;
+    }
+    .make-call-registration .form-box > select {width: 130px;}
+    .feature-image-content img {max-width: 100%;}
+    .feature-text-content {padding-left: 0;}
+    .single-feature {padding-top: 45px;}
+    .feature-text > h3{font-size: 22px}
+    .feature-text{padding-right: 0}
+    .service-left {padding: 0; width: 100%;}
+    .service-right {display: none;}
+    .c-content {width: 90px;}
+    .footer-widget-area .col-lg-3:nth-child(1) .single-footer-widget, .footer-widget-area .col-lg-3:nth-child(2) .single-footer-widget, .footer-widget-area .col-lg-3:nth-child(3) .single-footer-widget, .footer-widget-area .col-lg-3:nth-child(4) .single-footer-widget {
+        padding-left: 25px;
+    }
+}
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .container{width:300px}
+    .banner-text {width: 100%;}
+    .banner-image-wrapper, .service-icon::before, button.nav-btn i, .service-right, .service-container h2::after, .newsletter-area::before, .newsletter-area::after {
+        display: none;
+    }
+    .text-content h1 {font-size: 26px; line-height: 36px;}
+    .text-content p {padding-right: 0;}
+    .banner-button .button:last-child {margin-right: 0;}
+    .banner-button .button {
+        font-size: 15px;
+        margin-right: 5px;
+        padding: 10px 20px;
+    }
+    .single-service-item {
+        padding-bottom: 0;
+        padding-top: 30px;
+        width: 100%;
+    }
+    .service-text span {display: inline-block;}
+    .service-text {padding-top: 0;}
+    .single-service-container {padding-bottom: 30px;}
+    .mean-container .mean-bar {height: auto;}
+    .footer-widget-area {padding-bottom: 40px; padding-top: 20px;}
+    .single-footer-widget, .footer-widget-area .col-lg-3:nth-child(2) .single-footer-widget, .footer-widget-area .col-lg-3:nth-child(3) .single-footer-widget, .footer-widget-area .col-lg-3:nth-child(4) .single-footer-widget {
+        padding-left: 25px;
+    }
+    .single-testimonial {padding: 0;}
+    .service-left {padding-right: 0; width: 100%;}
+    .service-title {padding-right: 0;}
+    .service-title > h2 {font-size: 22px; margin-bottom: 15px;}
+    .service-business-area .single-feature {padding: 10px 0 20px; width: 100%;}
+    .service-business-area .feature-text {padding-right: 0;}
+    .button-link .default-btn {padding: 8px 23px;}
+    .button-link .service {font-size: 15px; padding-left: 0;}
+    .feature-area .section-title {padding: 0;}
+    .feature-image-content {width: 100%;}
+    .feature-image-content img {margin: 0; max-width: 100%;}
+    .section-title > h2 {font-size: 22px; margin-bottom: 12px;}
+    .feature-text-content {padding-left: 0; width: 100%;}
+    .single-feature {padding-top: 50px;}
+    .feature-text {padding-left: 15px; padding-right: 0;}
+    .slick-dots {right: -70px;}
+    .service-section {padding: 45px 0 35px;}
+    .service-container h2 {
+        left: 0;
+        margin-bottom: 20px;
+        position: inherit;
+        top: 0;
+        transform: rotate(0deg);
+    }
+    .service-container {padding-left: 0;}
+    .service-item {
+        margin-bottom: 25px;
+        padding-left: 0;
+        width: 100%;
+    }
+    .service-item:nth-child(5), .service-item:nth-child(6), .service-item:nth-child(5) p {margin-bottom: 25px;}
+    .newsletter-fun-area {
+        background: #f5f5f5 none repeat scroll 0 0;
+        padding: 0;
+    }
+    .newsletter-info, .newsletter-form {width: 100%;}
+    .newsletter-container {padding: 0;}
+    .newsletter-form input {
+        margin-left: 0;
+        width: 198px;
+    }
+    .newsletter-form form {float: left;}
+    .single-fun-factor {padding: 10px 0;}
+    .pricing-area {padding: 50px 0 25px;}
+    .section-title {
+        margin-bottom: 35px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .single-table {margin-bottom: 25px;}
+    .make-call-title {padding: 50px 0 0;}
+    .make-call-registration .form-box > input, .make-call-registration .form-box > select {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .make-call-registration .submit-btn {width: 100%;}
+    .call-button .default-btn:first-child {margin-left: 0;}
+    .call-button .default-btn {
+        font-size: 14px;
+        margin: 0 2px;
+        padding: 10px 18px;
+    }
+    .make-call-registration {padding-bottom: 50px;}
+    .faq-area {padding: 50px 0;}
+    .faq-left-sec {padding-left: 10px;}
+    .faq-title-image.fix {padding: 0;}
+    .faq-image > img {max-width: 100%;}
+    .faq-title > h3 {font-size: 15px;}
+    .faq-title > h2 {margin-bottom: 20px;}
+    .faq-title {padding-top: 86px;}
+    .faq-area .accordion {margin-top: 30px; padding-right: 0;}
+    .faq-area .card-title > a.collapsed {padding-left: 10px;}
+    .faq-area .card h4 {font-size: 15px; line-height: 22px;}
+    .faq-area .card-title > a {padding-left: 10px;}
+    .card-body {padding-left: 11px;}
+    .feature-area {padding: 50px 0 0;}
+    .service-business-area {padding: 0;}
+    .testimonial-area {padding: 60px 0;}
+    .feature-text > h3 {font-size: 15px; margin-bottom: 8px}
+    .service-area {background: #ffffff none repeat scroll 0 0;}
+    .single-testimonial > p::after {
+        font-size: 82px;
+        left: 0;
+        top: -6px;
+    }
+    .footer-title > h1 {font-size: 80px; top: -10px;}
+    .single-contact-info.res-xs2 {
+  margin: 20px 0;
+}
+.mt-100 {
+  margin-top: 0;
+}    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+    
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {width:450px}  
+    .text-content-wrapper {
+        margin: 0 auto;
+        padding: 0 15px;
+        width: 450px;
+    }
+    .newsletter-form input {width: 347px;}
+}
